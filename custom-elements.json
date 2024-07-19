@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "example.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "C",
+          "tagName": "c-c",
+          "customElement": true
+        },
+        {
+          "kind": "variable",
+          "name": "D",
+          "default": "undefined"
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "a-a",
+          "declaration": {
+            "name": "A",
+            "package": "module"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "b-b",
+          "declaration": {
+            "name": "B",
+            "package": "module"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "c-c",
+          "declaration": {
+            "name": "C",
+            "module": "example.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "d-d",
+          "declaration": {
+            "name": "D",
+            "module": "example.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "d-d-2",
+          "declaration": {
+            "name": "D",
+            "module": "example.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
